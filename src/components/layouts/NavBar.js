@@ -8,6 +8,10 @@ import logo from "../../logo.svg";
 import {
     Link
 } from "react-router-dom";
+import { AiFillHome } from 'react-icons/ai';
+import { MdContacts } from 'react-icons/md';
+import { FaNewspaper } from 'react-icons/fa';
+
 
 
 function NavBar() {
@@ -15,16 +19,17 @@ function NavBar() {
         <Navbar bg="light" expand="lg" className='bg-dark text-white'>
             <Container fluid >
                 <img src={logo} alt="logo" style={{ width: '35px' }} />
-                <Navbar.Toggle aria-controls="navbarScroll" />
+                <Navbar.Toggle aria-controls="navbarScroll" className='bg-white' />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
                         className="m-auto my-2 my-lg-0"
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link as={Link} to="/" className='text-white text-uppercase ml-5'>Home</Nav.Link>
-                        <Nav.Link as={Link} to="/contact-us" className='text-white text-uppercase ml-5'>Contact</Nav.Link>
-                        <Nav.Link as={Link} to="/news" className='text-white text-uppercase ml-5'>News</Nav.Link>
+                        <Nav.Link as={Link} to="/" className='text-white text-uppercase ml-5'><AiFillHome className='w-7 mr-5 mb-1 me-2' />Home</Nav.Link>
+                        <Nav.Link as={Link} to="/contact-us" className='text-white text-uppercase ml-5'><MdContacts className='w-7 mr-5 mb-1 me-2' />Contact</Nav.Link>
+                        <Nav.Link as={Link} to="/news" className='text-white text-uppercase ml-5'><FaNewspaper className='w-7 mr-5 mb-1 me-2' />News</Nav.Link>
+
 
                     </Nav>
                     <Form className="d-flex">
