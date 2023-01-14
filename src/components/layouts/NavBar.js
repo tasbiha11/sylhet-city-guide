@@ -4,7 +4,10 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from "../logo.svg";
+import logo from "../../logo.svg";
+import {
+    Link
+} from "react-router-dom";
 
 
 function NavBar() {
@@ -19,9 +22,9 @@ function NavBar() {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link href="#action1" className='text-white text-uppercase ml-5'>Home</Nav.Link>
-                        <Nav.Link href="#action2" className='text-white text-uppercase ml-5'>Contact</Nav.Link>
-                        <Nav.Link href="#action2" className='text-white text-uppercase ml-5'>News</Nav.Link>
+                        <Nav.Link as={Link} to="/" className='text-white text-uppercase ml-5'>Home</Nav.Link>
+                        <Nav.Link as={Link} to="/contact-us" className='text-white text-uppercase ml-5'>Contact</Nav.Link>
+                        <Nav.Link as={Link} to="/news" className='text-white text-uppercase ml-5'>News</Nav.Link>
 
                     </Nav>
                     <Form className="d-flex">
