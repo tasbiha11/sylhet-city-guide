@@ -11,6 +11,7 @@ import {
 import { AiFillHome } from 'react-icons/ai';
 import { MdContacts } from 'react-icons/md';
 import { FaNewspaper } from 'react-icons/fa';
+import { BsFillPinMapFill } from 'react-icons/bs';
 
 
 
@@ -18,7 +19,8 @@ function NavBar() {
     return (
         <Navbar bg="light" expand="lg" className='bg-dark text-white'>
             <Container fluid >
-                <img src={logo} alt="logo" style={{ width: '35px' }} />
+                {/* <img src={logo} alt="logo" style={{ width: '35px' }} /> */}
+                <h4><BsFillPinMapFill className='w-7 mr-5 mb-1 me-2' />Sylhet City Guide </h4>
                 <Navbar.Toggle aria-controls="navbarScroll" className='bg-white' />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
