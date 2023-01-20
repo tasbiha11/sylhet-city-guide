@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { InfoConsumer } from '../context';
 import { BsFacebook, BsTwitter, BsInstagram, BsReddit, BsYoutube } from 'react-icons/bs';
 import { FaGooglePlusG } from 'react-icons/fa';
+import styled from 'styled-components';
+import Reviews from '../Reviews';
 
 class Details extends Component {
     render() {
@@ -21,33 +23,33 @@ class Details extends Component {
 
                     return (
                         <React.Fragment>
-                            <div className="container-fluid align-items-center">
+                            <HeaderDetails className="container-fluid align-items-center">
                                 <h1 className="display-1 font-weight-bold">{headerTitle}</h1>
                                 <h4 className="display-5">{headerSubtitle}</h4>
                                 <p>{headerText}</p>
                                 <div className="container mt-5">
                                     <div className="row justify-content-center">
                                         <div className="col-2">
-                                            <BsFacebook />
+                                            <span><BsFacebook title={'Facebook'} /></span>
                                         </div>
                                         <div className="col-2">
-                                            <BsTwitter />
+                                            <span>   <BsTwitter title={'Twitter'} /></span>
                                         </div>
                                         <div className="col-2">
-                                            <BsInstagram />
+                                            <span>   <BsInstagram title={'Instagram'} /></span>
                                         </div>
                                         <div className="col-2">
-                                            <BsReddit />
+                                            <span >  <BsReddit title={'Reddit'} /></span>
                                         </div>
                                         <div className="col-2">
-                                            <BsYoutube />
+                                            <span> <BsYoutube title={'Youtube'} /></span>
                                         </div>
                                         <div className="col-2">
-                                            <FaGooglePlusG />
+                                            <span> <FaGooglePlusG title={'Google Plus'} /></span>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </HeaderDetails>
                             <div className="container">
                                 <ul className="nav nav-tabs">
                                     <li className="nav-item">
@@ -69,9 +71,9 @@ class Details extends Component {
                                         <img src={img} alt={title} className="img-thumbnail img-fluid" />
                                     </div>
                                     {/* reviews */}
-                                    <div className="tab-pane in active" id="reviews" role="tabpanel">Reviews Content</div>
+                                    <div className="tab-pane active" id="reviews" role="tabpanel"><Reviews /></div>
                                     {/* maps */}
-                                    <div className="tab-pane in active pt-5" id="map" role="tabpanel"><iframe src={maps} style={{ border: '0', height: '28.125rem', width: '100%', frameBorder: '0' }}></iframe>
+                                    <div className="tab-pane pt-5 active" id="map" role="tabpanel"><iframe src={maps} style={{ border: '0', height: '28.125rem', width: '100%', frameBorder: '0' }}></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -84,3 +86,47 @@ class Details extends Component {
 }
 
 export default Details;
+
+const HeaderDetails = styled.header`
+background:linear-gradient(rgba(109,109,109),rgba(255,255,255));
+height:100vh;
+text-transform:uppercase;
+color:var(--mainWhite);
+text-align:center;
+
+
+h1{
+    padding-top:10%;
+    color:var(--mainDark);
+}
+h4{
+     color:var(--mainDark);
+}
+
+p{
+    padding-left:10%;
+    padding-right:10%;
+    margin-bottom:10%;
+    color:var(--mainDark);
+}
+
+span{
+    font-size:1.875rem;
+    color:var(--mainDark);
+}
+
+span:hover{
+    color:var(--mainBlue);
+    cursor:pointer;
+}
+
+.nav-item{
+    height:18.75rem;
+}
+
+@media(max-width:760px){
+    h1,h4{
+        color:var(--mainWhite);
+    }
+}
+`;
