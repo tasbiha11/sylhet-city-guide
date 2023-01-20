@@ -8,39 +8,39 @@ const Footer = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-3 col-sm-6'>
-                            <h4>column1</h4>
+                            <h4>About</h4>
                             <ul className='list-unstyled'>
-                                <li> link </li>
-                                <li> link </li>
-                                <li> link </li>
-                                <li> link </li>
+                                <li> Sylhet </li>
+                                <li> Tourism </li>
+                                <li> Bangladesh </li>
+
                             </ul>
                         </div>
                         <div className='col-md-3 col-sm-6'>
-                            <h4>column1</h4>
+                            <h4>Founders</h4>
                             <ul className='list-unstyled'>
-                                <li><a href=""> link </a></li>
-                                <li><a href=""> link </a></li>
-                                <li><a href=""> link </a></li>
-                                <li><a href=""> link </a></li>
+                                <li><a href=""> Contact </a></li>
+                                <li><a href=""> Message </a></li>
+                                <li><a href=""> List </a></li>
+
                             </ul>
                         </div>
                         <div className='col-md-3 col-sm-6'>
-                            <h4>column1</h4>
+                            <h4>Motivation</h4>
                             <ul className='list-unstyled'>
-                                <li><a href=""> link </a></li>
-                                <li><a href=""> link </a></li>
-                                <li><a href=""> link </a></li>
-                                <li><a href=""> link </a></li>
+                                <li><a href=""> Background </a></li>
+                                <li><a href=""> Story </a></li>
+                                <li><a href=""> Established </a></li>
+
                             </ul>
                         </div>
                         <div className='col-md-3 col-sm-6'>
-                            <h4>column1</h4>
+                            <h4>Developers</h4>
                             <ul className='list-unstyled'>
-                                <li><a href=""> link </a></li>
-                                <li><a href=""> link </a></li>
-                                <li><a href=""> link </a></li>
-                                <li><a href=""> link </a></li>
+                                <li><a href=""> Tasbiha </a></li>
+                                <li><a href=""> Tabassum </a></li>
+                                <li><a href=""> Hussain </a></li>
+
                             </ul>
                         </div>
                     </div>

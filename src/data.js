@@ -5,7 +5,7 @@ export const placeInfo = [
         headerSubTitle: 'Natures Gift',
         headerText:
             'Bichnakandi, also known as Bisnakandi, is a village in Rustompur Union, Gowainghat Upazila of Bangladeshs Sylhet District. In recent years, there has been an influx of tourists to its river.',
-        title: 'Molestias officia excepturi',
+        title: 'Experience Natures Beauty at its Best',
         description:
             'Bichnakandi, also known as Bisnakandi, is a village in Rustompur Union, Gowainghat Upazila of Bangladeshs Sylhet District. In recent years, there has been an influx of tourists to its river.',
         img: '.././images/bisnakandi.jpg',
@@ -18,7 +18,7 @@ export const placeInfo = [
         headerSubTitle: 'Mazar',
         headerText:
             'Shah Parans birth name is unknown though it has been suggested that his name was Farhan which later got corrupted into Poran, meaning "soul". Poran is used as a term of endearment in the Bengal.',
-        title: 'Molestias officia excepturi',
+        title: 'Holy and Sacred Place for people',
         description:
             'Shah Parans birth name is unknown though it has been suggested that his name was Farhan which later got corrupted into Poran, meaning "soul". Poran is used as a term of endearment in the Bengali language. Others suggest that Shah Paran was a corruption of Shah Piran meaning "king of pirs.',
         img: '.././images/dargah.jpg',
@@ -61,7 +61,7 @@ export const placeInfo = [
             'Ratargul Swamp Forest is a freshwater swamp forest located in Gowain River, Fatehpur Union, Gowainghat, Sylhet, Bangladesh. Ratargul was once thought to be the only swamp forest in Bangladesh, and one of the few freshwater swamp forests in the world.',
         img: '.././images/ratargul.jpg',
         maps:
-            'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1123.3850145412064!2d37.600589158335865!3d55.72774864513666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b0be3ac9d11%3A0x735806d25b3bdc55!2z0JzRg9C30LXQuSDRgdC-0LLRgNC10LzQtdC90L3QvtCz0L4g0LjRgdC60YPRgdGB0YLQstCwIMKr0JPQsNGA0LDQtsK7!5e0!3m2!1sru!2sru!4v1547763408711'
+            'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.585632013288!2d91.9165144140022!3d25.01419234524135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375051377216199b%3A0x1e9a24c0202a6d39!2sRatargul%20Swamp%20Forest!5e0!3m2!1sen!2sbd!4v1674225912204!5m2!1sen!2sbd'
     },
     {
         id: 6,
@@ -74,7 +74,7 @@ export const placeInfo = [
             'If you want to enjoy the mind-blowing view of tea gardens across the horizon, visit the Sylhet division. Because, out of the total 167 tea gardens in Bangladesh, 135 are located in greater Sylhet.',
         img: '.././images/tea.jpg',
         maps:
-            'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1123.3850145412064!2d37.600589158335865!3d55.72774864513666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b0be3ac9d11%3A0x735806d25b3bdc55!2z0JzRg9C30LXQuSDRgdC-0LLRgNC10LzQtdC90L3QvtCz0L4g0LjRgdC60YPRgdGB0YLQstCwIMKr0JPQsNGA0LDQtsK7!5e0!3m2!1sru!2sru!4v1547763408711'
+            'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.5628425846826!2d91.88266761399973!3d24.912888949291894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37505539bd5ee991%3A0x666a35ebc31323b3!2sTea%20Garden!5e0!3m2!1sen!2sbd!4v1674225946709!5m2!1sen!2sbd'
     }
 ];
 
